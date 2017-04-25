@@ -10,7 +10,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     
-        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible">
             <Canvas Width="{Binding Path=ActualWidth, ElementName=MapImage}" Height="{Binding Path=ActualHeight, ElementName=MapImage}">
                 <Image x:Name="MapImage" Source="{Binding MapImage}">
                     <Image.CacheMode>
